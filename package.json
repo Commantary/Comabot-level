@@ -1,6 +1,6 @@
 {
-  "name": "discord-bot-comabot",
-  "version": "1.7.9",
+  "name": "ComaBot",
+  "version": "0.0.1",
   "description": "Un bot",
   "main": "index.js",
   "engines": {
@@ -12,14 +12,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Commantary/discord-bot-comabot.git"
+    "url": "https://github.com/Commantary/Comabot-level.git"
   },
   "author": "Commentary",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Commantary/discord-bot-comabot/issues"
+    "url": "https://github.com/Commantary/Comabot-level/issues"
   },
-  "homepage": "https://github.com/Commantary/discord-bot-comabot#readme",
+  "homepage": "https://github.com/Commantary/Comabot-level#readme",
   "devDependencies": {
     "eslint": "^4.5.0",
     "eslint-config-standard": "^10.2.1",
@@ -30,13 +30,6 @@
   },
   "dependencies": {
     "discord.js": "^11.2.1",
-    "discord.js-music-v11": "file:discord.js-music-v11",
-    "ffmpeg-binaries": "3.2.2-3",
-    "foobar": "^1.1.0",
-    "forever": "^0.15.3",
-    "opusscript": "0.0.3",
-    "sqlite": "^2.8.0",
-    "youtube-dl": "^1.11.1",
-    "ytdl": "^0.7.0"
+    "sqlite": "^2.8.0"
   }
 }

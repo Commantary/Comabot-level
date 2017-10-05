@@ -7,7 +7,7 @@ const config = JSON.parse(fs.readFileSync('./module/config.json', 'utf8'))
 
 // On start le bot
 client.on('ready', () => {
-  client.user.setGame('Je ne fais que les levels :)', 'https://www.twitch.tv/the_commentary', 0)
+  client.user.setGame('Je ne fais que les levels ^^', 'https://www.twitch.tv/the_commentary', 0)
   console.log('-------------------------------------')
   console.log('    [!] ComaBot level connecté [!]')
   console.log('-------------------------------------')
