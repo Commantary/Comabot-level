@@ -1,6 +1,6 @@
 {
-  "name": "discord-bot-comabot",
-  "version": "1.7.9",
+  "name": "ComaBot",
+  "version": "0.0.1",
   "description": "Un bot",
   "main": "index.js",
   "engines": {
