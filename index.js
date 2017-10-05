@@ -1,7 +1,6 @@
 // Mise en place des en tetes
 const discord = require('discord.js')
 const client = new discord.Client()
-const setting = require('./module/config.json')
 const fs = require('fs')
 const config = JSON.parse(fs.readFileSync('./module/config.json', 'utf8'))
 
@@ -11,7 +10,7 @@ client.on('ready', () => {
   console.log('-------------------------------------')
   console.log('    [!] ComaBot level connecté [!]')
   console.log('-------------------------------------')
-  console.log('le prefix est: ' + setting.prefix)
+  console.log('le prefix est: ' + config.prefix)
 })
 
 /* LES LEVELS */
