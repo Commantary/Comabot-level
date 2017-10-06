@@ -4,10 +4,13 @@ const client = new discord.Client()
 const fs = require('fs')
 const config = JSON.parse(fs.readFileSync('./module/config.json', 'utf8'))
 const prefix = config.prefix
+function jeux() {
+	client.user.setGame('Only Levels | ' + prefix + 'level', 'https://www.twitch.tv/the_commentary', 0)
+}
 
 // On start le bot
 client.on('ready', () => {
-  client.user.setGame('Only Levels | ' + prefix + 'level', 'https://www.twitch.tv/the_commentary', 0)
+  setInterval(jeux(), 5000)
   console.log('-------------------------------------')
   console.log('    [!] ComaBot level connecté [!]')
   console.log('-------------------------------------')
