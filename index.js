@@ -17,21 +17,9 @@ client.on('ready', () => {
   console.log('le prefix est: ' + config.prefix)
 })
 
-if (message.content ===  'teste') {
-	message.channel.send({embed: {
-		title: 'Embed teste',
-		color: 000000,
-		description: 'teste réussie'
-
-	}})
-}
-
 /* LES LEVELS */
 const pointsLevel = require('./levels/points.js')
 pointsLevel(client)
 
-var dt = process.env.TOKEN || process.argv[2]
-if (!dt) {
-  console.log('')
-}
+
 client.login(dt)
